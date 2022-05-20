@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva;
+}
+
+html, body{
+	height: 100%;
+}
+
+.header{
+	width: 100%;
+	height: 120px;
+	background-color: #264653;	
+	/*display: flex;*/
+}
+
+.center{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.header img{
+	width: 150px;
+	margin-top: 22px;
+}
+
+.menu{
+	width: 100%;
+	text-align: right;
+}
+
+.menu a{
+	height: 100%;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 20px;
+	position: relative;
+	top: -50px;	
+}
+
+.banner{
+	width: 100%;
+	height: 620px;
+	background-image: url('../images/fundo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*.banner > .center{
+	height: 30%;
+} */
+
+.banner .box{
+	width: 42%;
+	height: 500px;
+	background-color: white;
+	float: left;
+	display: inline-block;
+	margin: 80px 50px;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+
+/*
+.banner .box{
+	width: 50%;
+	height: 500px;
+	background-color: white;
+	float: right;
+	display: inline;
+	margin: 80px 50px;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+*/
+
+.box img{
+	width: 80px;
+	position: relative;
+	left: 200px;
+	margin-top: 10px;
+}
+
+.box p{
+	font-size: 18px;
+	padding: 20px;
+	font-style: italic;
+	text-align: justify;
+}
+
+button{
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	background-color: #F9A764;
+	border-radius: 10px;
+	border: 0;
+	position: relative;
+	left: 150px;
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: #de8d4b;
+}
+
+.container2{
+	width: 100%;
+	height: 220px;
+	background-color: #264653;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.container2 h3{
+	color: white;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.container2 p{
+	color: white;
+	font-size: 17px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	display: inline-block;
+	width: 1000px;
+}
+
+.footer{
+	width: 100%;
+	height: 520px;
+	background-color: #264653;
+	/*display: block;*/
+}
+
+.form{
+	width: 500px;
+	height: 470px;
+	background-color: white;
+	position: relative;
+	left: 700px;
+	/*display: inline-block;
+	float: left;*/
+	top: 20px;
+	border-radius: 10px;
+	padding: 20px;	
+	/*margin-left: 440px;*/
+
+}
+
+.form h3{
+	font-weight: normal;
+	font-size: 20px;
+	color: black;
+}
+
+.input-container{
+	margin-top: 20px;
+}
+
+.input-container span, .form p{
+	display: inline-block;
+	font-size: 17px;
+	color: black;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.form p{
+	margin: 20px 0;
+}
+
+.input-container input[type=text]{
+	width: 460px;
+	height: 55px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+}
+
+.form .input-submit-container{
+	text-align: right;
+}
+.form input[type=submit]{
+	width: 200px;
+	height: 40px;
+	background-color: #F9A764;
+	border-radius: 10px;
+	border: 0;
+	cursor: pointer; 
+	font-weight: bold;
+	display: inline-block;
+}
+
+.form input[type=submit]:hover{
+	background-color: #de8d4b;
+}
+
+/*
+.container-list{
+	width: 42%;
+	height: 480px;
+	background-color: white;
+	display: inline;
+	float: right;
+	margin-top: 30px;
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+	left: 600px;
+	top: -476px;
+}
+
+.container-list h4{
+	font-size: 20px;
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+.container-list ul li{
+	 margin-top: 20px;
+
+}*/
+
+.rodape{
+	border-top: 4px solid black;
+	padding: 60px;
+	text-align: center;
+	background-color: #264653;
+}
+
+.rodape p{
+	color: white;
+}
